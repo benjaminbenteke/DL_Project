@@ -6,3 +6,10 @@ $ deactivate
 $ pip list
 
 torch, pandas (numpy), torchvision, matplotlib, tqdm, pillow
+
+
+$ rm -fr .git
+$ git init
+$ git remote add origin https://github.com/benjaminbenteke/DL_Project.git
+$ git branch -M main
+$ git push -u origin main
